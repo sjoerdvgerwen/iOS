@@ -1,0 +1,6 @@
+framework module Pods_GOceries {
+  umbrella header "Pods-GOceries-umbrella.h"
+
+  export *
+  module * { export * }
+}

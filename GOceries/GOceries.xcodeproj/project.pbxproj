@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EE65AD527C4FFA900FCD9D4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE65AD427C4FFA900FCD9D4 /* HomeView.swift */; };
+		252B2BCF27DF70360037E45C /* FinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252B2BCE27DF70360037E45C /* FinderView.swift */; };
+		2545042B27E0A83C007208BD /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2545042A27E0A83C007208BD /* ApiKeys.swift */; };
+		2545042F27E0B27E007208BD /* IndoorAtlasManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2545042E27E0B27E007208BD /* IndoorAtlasManager.swift */; };
+		254FE35327D8B007000CBB81 /* BeaconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254FE35227D8B007000CBB81 /* BeaconView.swift */; };
+		254FE35527D8B03C000CBB81 /* FloorPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254FE35427D8B03C000CBB81 /* FloorPlanView.swift */; };
+		254FE35727D8CDA6000CBB81 /* UpsellingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254FE35627D8CDA6000CBB81 /* UpsellingView.swift */; };
+		255042C427BD238A004B310D /* GOceriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255042C327BD238A004B310D /* GOceriesApp.swift */; };
+		255042C627BD238A004B310D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255042C527BD238A004B310D /* ContentView.swift */; };
+		255042C827BD238D004B310D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255042C727BD238D004B310D /* Assets.xcassets */; };
+		255042CB27BD238D004B310D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255042CA27BD238D004B310D /* Preview Assets.xcassets */; };
+		255042D227BD3D1B004B310D /* ProductCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255042D127BD3D1B004B310D /* ProductCellView.swift */; };
+		255042D427BD3D26004B310D /* ProductSortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255042D327BD3D26004B310D /* ProductSortView.swift */; };
+		255042D827BD3D9B004B310D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255042D727BD3D9B004B310D /* Product.swift */; };
+		255042DA27BD3DAE004B310D /* ProductStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255042D927BD3DAE004B310D /* ProductStore.swift */; };
+		255BF0CF27E0C9A300FE72B4 /* AtlasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BF0CE27E0C9A300FE72B4 /* AtlasViewController.swift */; };
+		255BF0D127E0CE4500FE72B4 /* AtlasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BF0D027E0CE4500FE72B4 /* AtlasView.swift */; };
+		255BF0D327E0D95700FE72B4 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BF0D227E0D95700FE72B4 /* CameraView.swift */; };
+		25855A7C27C8C76A00ED9B06 /* ShoppingCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25855A7B27C8C76A00ED9B06 /* ShoppingCartView.swift */; };
+		258826D027BE784C00C1098A /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258826CF27BE784C00C1098A /* PlaySound.swift */; };
+		258AF65427E1D03F0085211A /* BeaconRangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258AF65327E1D03F0085211A /* BeaconRangeView.swift */; };
+		258AF65D27E1E21C0085211A /* ArViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258AF65C27E1E21C0085211A /* ArViewController.swift */; };
+		258AF65F27E1E2350085211A /* ArView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258AF65E27E1E2350085211A /* ArView.swift */; };
+		258AF66127E1E8640085211A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 258AF66027E1E8640085211A /* art.scnassets */; };
+		258AF66327E1ECAD0085211A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 258AF66227E1ECAD0085211A /* Main.storyboard */; };
+		25E0904527D5F7E400E32138 /* OrderStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E0904427D5F7E400E32138 /* OrderStore.swift */; };
+		25E0904727D5F7F200E32138 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E0904627D5F7F200E32138 /* Order.swift */; };
+		25E0904927D5FBD200E32138 /* OrderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E0904827D5FBD200E32138 /* OrderCellView.swift */; };
+		25E0904B27D5FD9C00E32138 /* OrderHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E0904A27D5FD9C00E32138 /* OrderHistoryView.swift */; };
+		25EED38327BFA0D0000E9FC8 /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EED38227BFA0D0000E9FC8 /* BarcodeScannerView.swift */; };
+		25EED38627BFA840000E9FC8 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 25EED38527BFA840000E9FC8 /* CodeScanner */; };
+		F9AFF946AA584E16B9E07F59 /* Pods_GOceries.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14787A4192ED5B93542E97EE /* Pods_GOceries.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14787A4192ED5B93542E97EE /* Pods_GOceries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GOceries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE65AD427C4FFA900FCD9D4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		250BCE3427C4E11C0057D1D9 /* scanner-beep-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "scanner-beep-sound.mp3"; sourceTree = "<group>"; };
+		252B2BCE27DF70360037E45C /* FinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderView.swift; sourceTree = "<group>"; };
+		2545042A27E0A83C007208BD /* ApiKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
+		2545042C27E0A90E007208BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2545042E27E0B27E007208BD /* IndoorAtlasManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorAtlasManager.swift; sourceTree = "<group>"; };
+		254FE35227D8B007000CBB81 /* BeaconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconView.swift; sourceTree = "<group>"; };
+		254FE35427D8B03C000CBB81 /* FloorPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorPlanView.swift; sourceTree = "<group>"; };
+		254FE35627D8CDA6000CBB81 /* UpsellingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpsellingView.swift; sourceTree = "<group>"; };
+		255042C027BD238A004B310D /* GOceries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOceries.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		255042C327BD238A004B310D /* GOceriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOceriesApp.swift; sourceTree = "<group>"; };
+		255042C527BD238A004B310D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		255042C727BD238D004B310D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		255042CA27BD238D004B310D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		255042D127BD3D1B004B310D /* ProductCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellView.swift; sourceTree = "<group>"; };
+		255042D327BD3D26004B310D /* ProductSortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSortView.swift; sourceTree = "<group>"; };
+		255042D727BD3D9B004B310D /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		255042D927BD3DAE004B310D /* ProductStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductStore.swift; sourceTree = "<group>"; };
+		255BF0CE27E0C9A300FE72B4 /* AtlasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlasViewController.swift; sourceTree = "<group>"; };
+		255BF0D027E0CE4500FE72B4 /* AtlasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlasView.swift; sourceTree = "<group>"; };
+		255BF0D227E0D95700FE72B4 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		25855A7B27C8C76A00ED9B06 /* ShoppingCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartView.swift; sourceTree = "<group>"; };
+		258826CF27BE784C00C1098A /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		258AF65327E1D03F0085211A /* BeaconRangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconRangeView.swift; sourceTree = "<group>"; };
+		258AF65C27E1E21C0085211A /* ArViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArViewController.swift; sourceTree = "<group>"; };
+		258AF65E27E1E2350085211A /* ArView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArView.swift; sourceTree = "<group>"; };
+		258AF66027E1E8640085211A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		258AF66227E1ECAD0085211A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		25E0904427D5F7E400E32138 /* OrderStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderStore.swift; sourceTree = "<group>"; };
+		25E0904627D5F7F200E32138 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		25E0904827D5FBD200E32138 /* OrderCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCellView.swift; sourceTree = "<group>"; };
+		25E0904A27D5FD9C00E32138 /* OrderHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryView.swift; sourceTree = "<group>"; };
+		25EED38227BFA0D0000E9FC8 /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
+		6A2DD70644C7792E1EC0EA2F /* Pods-GOceries.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOceries.release.xcconfig"; path = "Target Support Files/Pods-GOceries/Pods-GOceries.release.xcconfig"; sourceTree = "<group>"; };
+		CCC8984F87218B8B37F63708 /* Pods-GOceries.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOceries.debug.xcconfig"; path = "Target Support Files/Pods-GOceries/Pods-GOceries.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		255042BD27BD238A004B310D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EED38627BFA840000E9FC8 /* CodeScanner in Frameworks */,
+				F9AFF946AA584E16B9E07F59 /* Pods_GOceries.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2545042D27E0B1F5007208BD /* IndoorAtlas */ = {
+			isa = PBXGroup;
+			children = (
+				2545042A27E0A83C007208BD /* ApiKeys.swift */,
+				2545042E27E0B27E007208BD /* IndoorAtlasManager.swift */,
+			);
+			path = IndoorAtlas;
+			sourceTree = "<group>";
+		};
+		255042B727BD238A004B310D = {
+			isa = PBXGroup;
+			children = (
+				255042C227BD238A004B310D /* GOceries */,
+				255042C127BD238A004B310D /* Products */,
+				CDA3957F4960C129DC244E35 /* Pods */,
+				7AC9B832A4745FB41273F53F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		255042C127BD238A004B310D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				255042C027BD238A004B310D /* GOceries.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		255042C227BD238A004B310D /* GOceries */ = {
+			isa = PBXGroup;
+			children = (
+				2545042C27E0A90E007208BD /* Info.plist */,
+				258826CB27BE76D400C1098A /* Assets */,
+				255042D627BD3D87004B310D /* Class */,
+				255042D527BD3D80004B310D /* Model */,
+				255042C327BD238A004B310D /* GOceriesApp.swift */,
+				255042D127BD3D1B004B310D /* ProductCellView.swift */,
+				25E0904827D5FBD200E32138 /* OrderCellView.swift */,
+				25E0904A27D5FD9C00E32138 /* OrderHistoryView.swift */,
+				255042D327BD3D26004B310D /* ProductSortView.swift */,
+				25EED38227BFA0D0000E9FC8 /* BarcodeScannerView.swift */,
+				254FE35627D8CDA6000CBB81 /* UpsellingView.swift */,
+				252B2BCE27DF70360037E45C /* FinderView.swift */,
+				1EE65AD427C4FFA900FCD9D4 /* HomeView.swift */,
+				254FE35227D8B007000CBB81 /* BeaconView.swift */,
+				258AF65327E1D03F0085211A /* BeaconRangeView.swift */,
+				255BF0D227E0D95700FE72B4 /* CameraView.swift */,
+				254FE35427D8B03C000CBB81 /* FloorPlanView.swift */,
+				255BF0CE27E0C9A300FE72B4 /* AtlasViewController.swift */,
+				255BF0D027E0CE4500FE72B4 /* AtlasView.swift */,
+				258AF65C27E1E21C0085211A /* ArViewController.swift */,
+				258AF65E27E1E2350085211A /* ArView.swift */,
+				258AF66227E1ECAD0085211A /* Main.storyboard */,
+				255042C527BD238A004B310D /* ContentView.swift */,
+				25855A7B27C8C76A00ED9B06 /* ShoppingCartView.swift */,
+				255042C727BD238D004B310D /* Assets.xcassets */,
+				258AF66027E1E8640085211A /* art.scnassets */,
+				255042C927BD238D004B310D /* Preview Content */,
+			);
+			path = GOceries;
+			sourceTree = "<group>";
+		};
+		255042C927BD238D004B310D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				255042CA27BD238D004B310D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		255042D527BD3D80004B310D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				255042D727BD3D9B004B310D /* Product.swift */,
+				25E0904627D5F7F200E32138 /* Order.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		255042D627BD3D87004B310D /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				2545042D27E0B1F5007208BD /* IndoorAtlas */,
+				255042D927BD3DAE004B310D /* ProductStore.swift */,
+				258826CF27BE784C00C1098A /* PlaySound.swift */,
+				25E0904427D5F7E400E32138 /* OrderStore.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		258826CB27BE76D400C1098A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				250BCE3427C4E11C0057D1D9 /* scanner-beep-sound.mp3 */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		7AC9B832A4745FB41273F53F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14787A4192ED5B93542E97EE /* Pods_GOceries.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDA3957F4960C129DC244E35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCC8984F87218B8B37F63708 /* Pods-GOceries.debug.xcconfig */,
+				6A2DD70644C7792E1EC0EA2F /* Pods-GOceries.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		255042BF27BD238A004B310D /* GOceries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255042CE27BD238D004B310D /* Build configuration list for PBXNativeTarget "GOceries" */;
+			buildPhases = (
+				D40B3A90A68BDBB75A49097E /* [CP] Check Pods Manifest.lock */,
+				255042BC27BD238A004B310D /* Sources */,
+				255042BD27BD238A004B310D /* Frameworks */,
+				255042BE27BD238A004B310D /* Resources */,
+				CFC493DE2E41F771207D477F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GOceries;
+			packageProductDependencies = (
+				25EED38527BFA840000E9FC8 /* CodeScanner */,
+			);
+			productName = GOceries;
+			productReference = 255042C027BD238A004B310D /* GOceries.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		255042B827BD238A004B310D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					255042BF27BD238A004B310D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 255042BB27BD238A004B310D /* Build configuration list for PBXProject "GOceries" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 255042B727BD238A004B310D;
+			packageReferences = (
+				25EED38427BFA840000E9FC8 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
+			productRefGroup = 255042C127BD238A004B310D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				255042BF27BD238A004B310D /* GOceries */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		255042BE27BD238A004B310D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255042CB27BD238D004B310D /* Preview Assets.xcassets in Resources */,
+				258AF66127E1E8640085211A /* art.scnassets in Resources */,
+				255042C827BD238D004B310D /* Assets.xcassets in Resources */,
+				258AF66327E1ECAD0085211A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CFC493DE2E41F771207D477F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GOceries/Pods-GOceries-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GOceries/Pods-GOceries-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GOceries/Pods-GOceries-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D40B3A90A68BDBB75A49097E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GOceries-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		255042BC27BD238A004B310D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258AF65427E1D03F0085211A /* BeaconRangeView.swift in Sources */,
+				2545042F27E0B27E007208BD /* IndoorAtlasManager.swift in Sources */,
+				1EE65AD527C4FFA900FCD9D4 /* HomeView.swift in Sources */,
+				254FE35327D8B007000CBB81 /* BeaconView.swift in Sources */,
+				255BF0CF27E0C9A300FE72B4 /* AtlasViewController.swift in Sources */,
+				25EED38327BFA0D0000E9FC8 /* BarcodeScannerView.swift in Sources */,
+				255042C627BD238A004B310D /* ContentView.swift in Sources */,
+				258826D027BE784C00C1098A /* PlaySound.swift in Sources */,
+				25855A7C27C8C76A00ED9B06 /* ShoppingCartView.swift in Sources */,
+				258AF65F27E1E2350085211A /* ArView.swift in Sources */,
+				255BF0D127E0CE4500FE72B4 /* AtlasView.swift in Sources */,
+				254FE35527D8B03C000CBB81 /* FloorPlanView.swift in Sources */,
+				255042D427BD3D26004B310D /* ProductSortView.swift in Sources */,
+				25E0904727D5F7F200E32138 /* Order.swift in Sources */,
+				255042D827BD3D9B004B310D /* Product.swift in Sources */,
+				25E0904B27D5FD9C00E32138 /* OrderHistoryView.swift in Sources */,
+				255042DA27BD3DAE004B310D /* ProductStore.swift in Sources */,
+				255042D227BD3D1B004B310D /* ProductCellView.swift in Sources */,
+				2545042B27E0A83C007208BD /* ApiKeys.swift in Sources */,
+				254FE35727D8CDA6000CBB81 /* UpsellingView.swift in Sources */,
+				255BF0D327E0D95700FE72B4 /* CameraView.swift in Sources */,
+				25E0904527D5F7E400E32138 /* OrderStore.swift in Sources */,
+				255042C427BD238A004B310D /* GOceriesApp.swift in Sources */,
+				252B2BCF27DF70360037E45C /* FinderView.swift in Sources */,
+				25E0904927D5FBD200E32138 /* OrderCellView.swift in Sources */,
+				258AF65D27E1E21C0085211A /* ArViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		255042CC27BD238D004B310D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		255042CD27BD238D004B310D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		255042CF27BD238D004B310D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCC8984F87218B8B37F63708 /* Pods-GOceries.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GOceries/Preview Content\"";
+				DEVELOPMENT_TEAM = 7SF9FZR36R;
+				ENABLE_BITCODE = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GOceries/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth requested for better positioning experience.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Bluetooth requested for better positioning experience.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need the camera to scan barcodes.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "latform location requested for better positioning experience.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "latform location requested for better indoor positioning experience.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Needed to find groceries";
+				INFOPLIST_KEY_NSMotionUsageDescription = "For better indoor positioning.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bramensjoerd1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		255042D027BD238D004B310D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A2DD70644C7792E1EC0EA2F /* Pods-GOceries.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GOceries/Preview Content\"";
+				DEVELOPMENT_TEAM = 7SF9FZR36R;
+				ENABLE_BITCODE = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GOceries/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth requested for better positioning experience.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Bluetooth requested for better positioning experience.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need the camera to scan barcodes.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "latform location requested for better positioning experience.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "latform location requested for better indoor positioning experience.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Needed to find groceries";
+				INFOPLIST_KEY_NSMotionUsageDescription = "For better indoor positioning.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bramensjoerd1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		255042BB27BD238A004B310D /* Build configuration list for PBXProject "GOceries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255042CC27BD238D004B310D /* Debug */,
+				255042CD27BD238D004B310D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255042CE27BD238D004B310D /* Build configuration list for PBXNativeTarget "GOceries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255042CF27BD238D004B310D /* Debug */,
+				255042D027BD238D004B310D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		25EED38427BFA840000E9FC8 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		25EED38527BFA840000E9FC8 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25EED38427BFA840000E9FC8 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 255042B827BD238A004B310D /* Project object */;
+}
